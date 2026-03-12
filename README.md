@@ -3,7 +3,7 @@
 A Machine Learning web application that predicts house prices based on various features using Linear Regression.
 
 ## 🔗 Live Demo
-https://house-price-prediction-4jezb9hh9hbiw9bykkwnfy.streamlit.app/ ← we will add link after deployment
+https://house-price-prediction-4jezb9hh9hbiw9bykkwnfy.streamlit.app/
 
 ## 📊 About The Project
 This project uses the California Housing Dataset containing 20,640 real house records to train a Linear Regression model that predicts house prices.
