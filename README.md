@@ -1,67 +1,64 @@
-# 🏠 House Price Prediction using Machine Learning
+# 🏠 House Price Prediction
 
-This project predicts house prices using a Machine Learning model trained on the California Housing dataset.
+A Machine Learning web application that predicts house prices based on various features using Linear Regression.
 
----
+## 🔗 Live Demo
+[Click here to try the app](#) ← we will add link after deployment
 
-## 📊 Dataset
-California Housing Dataset  
-Total Records: **20,640**
+## 📊 About The Project
+This project uses the California Housing Dataset containing 20,640 real house records to train a Linear Regression model that predicts house prices.
 
-Features include:
-- Median Income
-- House Age
-- Average Rooms
-- Average Bedrooms
-- Population
-- Latitude
-- Longitude
+## 🎯 Model Performance
+- **Algorithm:** Linear Regression
+- **Accuracy:** 57.6%
+- **R2 Score:** 0.58
+- **Dataset Size:** 20,640 records
+- **Training Samples:** 16,512
+- **Testing Samples:** 4,128
 
----
-
-## 🧠 Machine Learning Model
-**Linear Regression**
-
----
-
-## 📈 Model Performance
-- R² Score: **0.58**
-- Mean Squared Error: **0.56**
-
----
-
-## 🛠 Technologies Used
-- Python
+## 🛠️ Technologies Used
+- Python 3.11
 - Pandas
 - NumPy
 - Scikit-learn
 - Matplotlib
+- Seaborn
+- Streamlit
 
----
-
-## 📷 Output Graph
-
-![Prediction Graph](results.png)
-
----
-
-## 🚀 How to Run the Project
-
-Install dependencies:
-
-```bash
-pip install pandas scikit-learn matplotlib
+## 📁 Project Structure
+```
+house-price-prediction/
+│
+├── house_price.py      ← ML model code
+├── app.py              ← Streamlit web app
+├── results.png         ← Model results graph
+└── README.md           ← Project documentation
 ```
 
-Run the project:
-
+## 🚀 How To Run Locally
 ```bash
-python house_price.py
+# Clone the repository
+git clone https://github.com/Anant-083/house-price-prediction.git
+
+# Navigate to folder
+cd house-price-prediction
+
+# Install dependencies
+pip install pandas numpy scikit-learn matplotlib seaborn streamlit
+
+# Run the app
+streamlit run app.py
 ```
 
----
+## 📈 Results
+![Actual vs Predicted Prices](results.png)
 
 ## 👨‍💻 Author
+**Anant-083**
+- GitHub: [@Anant-083](https://github.com/Anant-083)
 
-**Anant**  
-AIML Student | Machine Learning Enthusiast
+## 📚 What I Learned
+- End to end ML pipeline
+- Data preprocessing and exploration
+- Training and evaluating ML models
+- Building and deploying ML web apps
